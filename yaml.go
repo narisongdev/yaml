@@ -31,6 +31,8 @@ import (
 	"unicode/utf8"
 )
 
+var Tag = "yaml"
+
 // The Unmarshaler interface may be implemented by types to customize their
 // behavior when being unmarshaled from a YAML document.
 type Unmarshaler interface {
@@ -544,7 +546,7 @@ func getStructInfo(st reflect.Type) (*structInfo, error) {
 
 		info := fieldInfo{Num: i}
 
-		tag := field.Tag.Get("json")
+		tag := field.Tag.Get(Tag)
 		if tag == "" && strings.Index(string(field.Tag), ":") < 0 {
 			tag = string(field.Tag)
 		}
