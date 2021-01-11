@@ -36,18 +36,18 @@ supported since they're a poor design and are gone in YAML 1.2.
 Installation and usage
 ----------------------
 
-The import path for the package is *github.com/narisongdev/yaml.v3*.
+The import path for the package is *github.com/narisongdev/yaml*.
 
 To install it, run:
 
-    go get github.com/narisongdev/yaml.v3
+    go get github.com/narisongdev/yaml
 
 API documentation
 -----------------
 
 If opened in a browser, the import path itself leads to the API documentation:
 
-  - [https://github.com/narisongdev/yaml.v3](https://github.com/narisongdev/yaml.v3)
+  - [https://github.com/narisongdev/yaml](https://github.com/narisongdev/yaml)
 
 API stability
 -------------
@@ -72,7 +72,7 @@ import (
         "fmt"
         "log"
 
-        "github.com/narisongdev/yaml.v3"
+        "github.com/narisongdev/yaml"
 )
 
 var data = `

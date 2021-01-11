@@ -23,7 +23,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/narisongdev/yaml.v3"
+	"github.com/narisongdev/yaml"
 	. "gopkg.in/check.v1"
 )
 

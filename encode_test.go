@@ -26,7 +26,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/narisongdev/yaml.v3"
+	"github.com/narisongdev/yaml"
 	. "gopkg.in/check.v1"
 )
 
