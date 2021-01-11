@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/narisongdev/yaml"
+	"github.com/narisongdev/yaml.v3"
 )
 
 // An example showing how to unmarshal embedded

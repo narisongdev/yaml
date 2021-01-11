@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/narisongdev/yaml"
+	"github.com/narisongdev/yaml.v3"
 	. "gopkg.in/check.v1"
 )
 

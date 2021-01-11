@@ -1,4 +1,4 @@
-module github.com/narisongdev/yaml
+module github.com/narisongdev/yaml.v3
 
 go 1.15
 
