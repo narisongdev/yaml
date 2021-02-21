@@ -1,5 +1,15 @@
 # YAML support for the Go language
 
+Note
+------------
+The original go-yaml package does not support "json" or any struct tag except "yaml" as of 1/11/2021. This fork adds that support by simply exposing `yaml.Tag`. The default is "yaml". By overriding it with "json", the json tags will be used.
+
+![json](json.jpg)
+
+The output
+
+![output](output.jpg)
+
 Introduction
 ------------
 
